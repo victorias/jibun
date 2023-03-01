@@ -1,0 +1,247 @@
+Info 0    [16:11:56.079] Starting TS Server
+Info 1    [16:11:56.080] Version: 4.9.5
+Info 2    [16:11:56.080] Arguments: /Users/bebswang/.nvm/versions/node/v17.7.1/bin/node /Users/bebswang/jibun/node_modules/typescript/lib/tsserver.js --logFile /Users/bebswang/jibun/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/ph/xmbrbfqd7h5d9cg9l49n8_b80000gn/T/d49eb8bde2e04361b75527a43a7c3de3/tscancellation*
+Info 3    [16:11:56.080] Platform: darwin NodeVersion: 17 CaseSensitive: false
+Info 4    [16:11:56.080] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:11:56.087] Format host information updated
+Info 6    [16:11:56.091] Search path: /Users/bebswang/jibun/app/routes
+Info 7    [16:11:56.092] For info: /Users/bebswang/jibun/app/routes/index.tsx :: Config file name: /Users/bebswang/jibun/tsconfig.json
+Info 8    [16:11:56.092] Creating configuration project /Users/bebswang/jibun/tsconfig.json
+Info 9    [16:11:56.106] Config: /Users/bebswang/jibun/tsconfig.json : {
+ "rootNames": [
+  "/Users/bebswang/jibun/remix.env.d.ts",
+  "/Users/bebswang/jibun/vitest.config.ts",
+  "/Users/bebswang/jibun/app/db.server.ts",
+  "/Users/bebswang/jibun/app/session.server.ts",
+  "/Users/bebswang/jibun/app/utils.test.ts",
+  "/Users/bebswang/jibun/app/utils.ts",
+  "/Users/bebswang/jibun/app/models/note.server.ts",
+  "/Users/bebswang/jibun/app/models/user.server.ts",
+  "/Users/bebswang/jibun/prisma/seed.ts",
+  "/Users/bebswang/jibun/test/setup-test-env.ts",
+  "/Users/bebswang/jibun/app/entry.client.tsx",
+  "/Users/bebswang/jibun/app/entry.server.tsx",
+  "/Users/bebswang/jibun/app/root.tsx",
+  "/Users/bebswang/jibun/app/routes/healthcheck.tsx",
+  "/Users/bebswang/jibun/app/routes/index.tsx",
+  "/Users/bebswang/jibun/app/routes/join.tsx",
+  "/Users/bebswang/jibun/app/routes/login.tsx",
+  "/Users/bebswang/jibun/app/routes/logout.tsx",
+  "/Users/bebswang/jibun/app/routes/notes.tsx",
+  "/Users/bebswang/jibun/app/routes/notes/$noteId.tsx",
+  "/Users/bebswang/jibun/app/routes/notes/index.tsx",
+  "/Users/bebswang/jibun/app/routes/notes/new.tsx"
+ ],
+ "options": {
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.es2019.d.ts"
+  ],
+  "types": [
+   "vitest/globals"
+  ],
+  "isolatedModules": true,
+  "esModuleInterop": true,
+  "jsx": 4,
+  "module": 1,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "target": 6,
+  "strict": true,
+  "allowJs": true,
+  "forceConsistentCasingInFileNames": true,
+  "baseUrl": "/Users/bebswang/jibun",
+  "paths": {
+   "~/*": [
+    "./app/*"
+   ]
+  },
+  "skipLibCheck": true,
+  "noEmit": true,
+  "pathsBasePath": "/Users/bebswang/jibun",
+  "configFilePath": "/Users/bebswang/jibun/tsconfig.json"
+ }
+}
+Info 10   [16:11:56.111] Starting updateGraphWorker: Project: /Users/bebswang/jibun/tsconfig.json
+Info 11   [16:11:56.895] Finishing updateGraphWorker: Project: /Users/bebswang/jibun/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 783.7865409851074ms
+Info 12   [16:11:56.895] Project '/Users/bebswang/jibun/tsconfig.json' (Configured)
+Info 13   [16:11:56.895] 	Files (256)
+
+Info 14   [16:11:56.895] -----------------------------------------------
+Info 15   [16:11:56.899] AutoImportProviderProject: found 2 root files in 2 dependencies in 2.1564178466796875 ms
+Info 16   [16:11:56.899] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [16:11:56.904] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4.903750419616699ms
+Info 18   [16:11:56.904] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [16:11:56.904] 	Files (7)
+
+Info 20   [16:11:56.904] -----------------------------------------------
+Info 21   [16:11:56.909] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.log/ti-15314.log :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 22   [16:11:56.909] Project: /Users/bebswang/jibun/tsconfig.json Detected file add/remove of non supported extension: /users/bebswang/jibun/.log/ti-15314.log
+Info 23   [16:11:56.909] Elapsed:: 0.23874950408935547ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.log/ti-15314.log :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 24   [16:11:56.909] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.log/ti-15314.log :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 25   [16:11:56.909] Project: /Users/bebswang/jibun/tsconfig.json Detected file add/remove of non supported extension: /users/bebswang/jibun/.log/ti-15314.log
+Info 26   [16:11:56.909] Elapsed:: 0.02741718292236328ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.log/ti-15314.log :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 27   [16:12:27.083] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 28   [16:12:27.084] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git
+Info 29   [16:12:27.084] Elapsed:: 0.6672496795654297ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 30   [16:12:27.084] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/info :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 31   [16:12:27.084] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/info
+Info 32   [16:12:27.084] Elapsed:: 0.07245826721191406ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/info :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 33   [16:12:27.084] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/info/exclude :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 34   [16:12:27.085] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/info/exclude
+Info 35   [16:12:27.085] Elapsed:: 0.047290802001953125ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/info/exclude :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 36   [16:12:27.085] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/description :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 37   [16:12:27.085] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/description
+Info 38   [16:12:27.085] Elapsed:: 0.04845905303955078ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/description :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 39   [16:12:27.085] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 40   [16:12:27.085] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks
+Info 41   [16:12:27.085] Elapsed:: 0.043999671936035156ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 42   [16:12:27.085] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/commit-msg.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 43   [16:12:27.085] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/commit-msg.sample
+Info 44   [16:12:27.085] Elapsed:: 0.050499916076660156ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/commit-msg.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 45   [16:12:27.086] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-rebase.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 46   [16:12:27.086] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/pre-rebase.sample
+Info 47   [16:12:27.086] Elapsed:: 0.15850067138671875ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-rebase.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 48   [16:12:27.086] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-commit.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 49   [16:12:27.086] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/pre-commit.sample
+Info 50   [16:12:27.086] Elapsed:: 0.042667388916015625ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-commit.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 51   [16:12:27.086] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/applypatch-msg.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 52   [16:12:27.086] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/applypatch-msg.sample
+Info 53   [16:12:27.086] Elapsed:: 0.04116630554199219ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/applypatch-msg.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 54   [16:12:27.086] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/fsmonitor-watchman.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 55   [16:12:27.087] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/fsmonitor-watchman.sample
+Info 56   [16:12:27.087] Elapsed:: 0.0727081298828125ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/fsmonitor-watchman.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 57   [16:12:27.087] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-receive.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 58   [16:12:27.087] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/pre-receive.sample
+Info 59   [16:12:27.087] Elapsed:: 0.06699943542480469ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-receive.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 60   [16:12:27.087] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/prepare-commit-msg.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 61   [16:12:27.087] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/prepare-commit-msg.sample
+Info 62   [16:12:27.087] Elapsed:: 0.09291744232177734ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/prepare-commit-msg.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 63   [16:12:27.087] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/post-update.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 64   [16:12:27.087] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/post-update.sample
+Info 65   [16:12:27.087] Elapsed:: 0.06362438201904297ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/post-update.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 66   [16:12:27.087] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-merge-commit.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 67   [16:12:27.087] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/pre-merge-commit.sample
+Info 68   [16:12:27.087] Elapsed:: 0.3474998474121094ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-merge-commit.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 69   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-applypatch.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 70   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/pre-applypatch.sample
+Info 71   [16:12:27.088] Elapsed:: 0.08062553405761719ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-applypatch.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 72   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-push.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 73   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/pre-push.sample
+Info 74   [16:12:27.088] Elapsed:: 0.056540489196777344ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/pre-push.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 75   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/update.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 76   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/update.sample
+Info 77   [16:12:27.088] Elapsed:: 0.05066680908203125ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/update.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 78   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/push-to-checkout.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 79   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/hooks/push-to-checkout.sample
+Info 80   [16:12:27.088] Elapsed:: 0.04633331298828125ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/hooks/push-to-checkout.sample :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 81   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/refs :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 82   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/refs
+Info 83   [16:12:27.088] Elapsed:: 0.04695892333984375ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/refs :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 84   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/refs/heads :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 85   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/refs/heads
+Info 86   [16:12:27.088] Elapsed:: 0.04591655731201172ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/refs/heads :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 87   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/refs/tags :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 88   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/refs/tags
+Info 89   [16:12:27.088] Elapsed:: 0.04537487030029297ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/refs/tags :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 90   [16:12:27.088] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/HEAD.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 91   [16:12:27.088] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/HEAD.lock
+Info 92   [16:12:27.088] Elapsed:: 0.05804157257080078ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/HEAD.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 93   [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/HEAD :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 94   [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/HEAD
+Info 95   [16:12:27.089] Elapsed:: 0.04016685485839844ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/HEAD :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 96   [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 97   [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config.lock
+Info 98   [16:12:27.089] Elapsed:: 0.03012561798095703ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 99   [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 100  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config.lock
+Info 101  [16:12:27.089] Elapsed:: 0.043209075927734375ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 102  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 103  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config
+Info 104  [16:12:27.089] Elapsed:: 0.03058338165283203ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 105  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 106  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config.lock
+Info 107  [16:12:27.089] Elapsed:: 0.029750823974609375ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 108  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 109  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config
+Info 110  [16:12:27.089] Elapsed:: 0.029375076293945312ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 111  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 112  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config.lock
+Info 113  [16:12:27.089] Elapsed:: 0.029125213623046875ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 114  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 115  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config
+Info 116  [16:12:27.089] Elapsed:: 0.03437519073486328ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 117  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/t8cbLCb :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 118  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/t8cbLCb
+Info 119  [16:12:27.089] Elapsed:: 0.03520774841308594ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/t8cbLCb :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 120  [16:12:27.089] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/t8cbLCb :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 121  [16:12:27.089] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/t8cbLCb
+Info 122  [16:12:27.089] Elapsed:: 0.047875404357910156ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/t8cbLCb :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 123  [16:12:27.090] DirectoryWatcher:: Triggered with /Users/bebswang/jibun/.git :: WatchInfo: /Users/bebswang/jibun 0 undefined Project: /Users/bebswang/jibun/tsconfig.json WatchType: Failed Lookup Locations
+Info 124  [16:12:27.090] Elapsed:: 0.7093753814697266ms DirectoryWatcher:: Triggered with /Users/bebswang/jibun/.git :: WatchInfo: /Users/bebswang/jibun 0 undefined Project: /Users/bebswang/jibun/tsconfig.json WatchType: Failed Lookup Locations
+Info 125  [16:12:27.090] DirectoryWatcher:: Triggered with /Users/bebswang/jibun/.git :: WatchInfo: /Users/bebswang/jibun 0 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 126  [16:12:27.090] Elapsed:: 0.0210418701171875ms DirectoryWatcher:: Triggered with /Users/bebswang/jibun/.git :: WatchInfo: /Users/bebswang/jibun 0 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 127  [16:12:27.090] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 128  [16:12:27.090] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config.lock
+Info 129  [16:12:27.090] Elapsed:: 0.045207977294921875ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 130  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 131  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config
+Info 132  [16:12:27.091] Elapsed:: 0.03462505340576172ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 133  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 134  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config.lock
+Info 135  [16:12:27.091] Elapsed:: 0.029959678649902344ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 136  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 137  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config
+Info 138  [16:12:27.091] Elapsed:: 0.17737483978271484ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 139  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 140  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/config
+Info 141  [16:12:27.091] Elapsed:: 0.05304241180419922ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/config :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 142  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/ä :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 143  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/ä
+Info 144  [16:12:27.091] Elapsed:: 0.03320884704589844ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/ä :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 145  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 146  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects
+Info 147  [16:12:27.091] Elapsed:: 0.028916358947753906ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 148  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/pack :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 149  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/pack
+Info 150  [16:12:27.091] Elapsed:: 0.02858448028564453ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/pack :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 151  [16:12:27.091] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/info :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 152  [16:12:27.091] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/info
+Info 153  [16:12:27.091] Elapsed:: 0.03183269500732422ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/info :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 154  [16:12:27.136] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/FETCH_HEAD :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 155  [16:12:27.136] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/FETCH_HEAD
+Info 156  [16:12:27.136] Elapsed:: 0.0996246337890625ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/FETCH_HEAD :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 157  [16:12:27.136] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/maintenance.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 158  [16:12:27.136] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/maintenance.lock
+Info 159  [16:12:27.136] Elapsed:: 0.03579139709472656ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/maintenance.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 160  [16:12:32.529] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/index.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 161  [16:12:32.529] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/index.lock
+Info 162  [16:12:32.529] Elapsed:: 0.1269998550415039ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/index.lock :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 163  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/91/077d0621d29eeb3c5de92f9a450d8f3216337a :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 164  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/91/077d0621d29eeb3c5de92f9a450d8f3216337a
+Info 165  [16:12:32.530] Elapsed:: 0.04374980926513672ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/91/077d0621d29eeb3c5de92f9a450d8f3216337a :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 166  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/91 :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 167  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/91
+Info 168  [16:12:32.530] Elapsed:: 0.03012561798095703ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/91 :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 169  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/91/tmp_obj_AT0cyN :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 170  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/91/tmp_obj_AT0cyN
+Info 171  [16:12:32.530] Elapsed:: 0.038916587829589844ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/91/tmp_obj_AT0cyN :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 172  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/0d/0e0d65e4b6e09c23bbfd1fa605a9907a1f83ed :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 173  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/0d/0e0d65e4b6e09c23bbfd1fa605a9907a1f83ed
+Info 174  [16:12:32.530] Elapsed:: 0.02991771697998047ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/0d/0e0d65e4b6e09c23bbfd1fa605a9907a1f83ed :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 175  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/0d :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 176  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/0d
+Info 177  [16:12:32.530] Elapsed:: 0.02916717529296875ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/0d :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 178  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/0d/tmp_obj_6757BN :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 179  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/0d/tmp_obj_6757BN
+Info 180  [16:12:32.530] Elapsed:: 0.033916473388671875ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/0d/tmp_obj_6757BN :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 181  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/8a/tmp_obj_I3ztGN :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 182  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/8a/tmp_obj_I3ztGN
+Info 183  [16:12:32.530] Elapsed:: 0.053915977478027344ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/8a/tmp_obj_I3ztGN :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 184  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/8a/b077d6d56e582379d2b8c317425c3e654bd769 :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 185  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/8a/b077d6d56e582379d2b8c317425c3e654bd769
+Info 186  [16:12:32.530] Elapsed:: 0.029458045959472656ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/8a/b077d6d56e582379d2b8c317425c3e654bd769 :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 187  [16:12:32.530] DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/8a :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory
+Info 188  [16:12:32.530] Project: /Users/bebswang/jibun/tsconfig.json Detected ignored path: /users/bebswang/jibun/.git/objects/8a
+Info 189  [16:12:32.530] Elapsed:: 0.02854156494140625ms DirectoryWatcher:: Triggered with /users/bebswang/jibun/.git/objects/8a :: WatchInfo: /users/bebswang/jibun 1 undefined Config: /Users/bebswang/jibun/tsconfig.json WatchType: Wild card directory

@@ -1,0 +1,18 @@
+[16:11:56.211] Global cache location '/Users/bebswang/Library/Caches/typescript/4.9', safe file path '/users/bebswang/jibun/node_modules/typescript/lib/typingsafelist.json', types map path /users/bebswang/jibun/node_modules/typescript/lib/typesmap.json
+[16:11:56.212] Processing cache location '/Users/bebswang/Library/Caches/typescript/4.9'
+[16:11:56.212] Trying to find '/Users/bebswang/Library/Caches/typescript/4.9/package.json'...
+[16:11:56.213] Finished processing cache location '/Users/bebswang/Library/Caches/typescript/4.9'
+[16:11:56.213] Process id: 15315
+[16:11:56.213] NPM location: /Users/bebswang/.nvm/versions/node/v17.7.1/bin/npm (explicit '--npmLocation' not  provided)
+[16:11:56.213] validateDefaultNpmLocation: false
+[16:11:56.213] Npm config file: /Users/bebswang/Library/Caches/typescript/4.9/package.json
+[16:11:56.213] Npm config file: '/Users/bebswang/Library/Caches/typescript/4.9/package.json' is missing, creating new one...
+[16:11:56.214] Updating types-registry npm package...
+[16:11:56.214] Exec: /Users/bebswang/.nvm/versions/node/v17.7.1/bin/npm install --ignore-scripts types-registry@latest
+[16:11:56.779]     Succeeded. stdout:
+    
+    added 1 package, and audited 2 packages in 425ms
+
+found 0 vulnerabilities
+
+[16:11:56.779] Updated types-registry npm package
